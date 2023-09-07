@@ -31,7 +31,7 @@
         "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
         "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
         "CLANG_TRIPLE": "aarch64-linux-gnu-",
-        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold"
+        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold",
         "LDGOLD": "aarch64-linux-gnu-ld.gold"
       }
     },
