@@ -30,7 +30,8 @@
         "CROSS_COMPILE": "aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
         "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "aarch64-linux-gnu-"
+        "CLANG_TRIPLE": "aarch64-linux-gnu-",
+        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold"
       }
     },
     "AnyKernel3": {
