@@ -10,12 +10,14 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android12L-release/llvm-binutils-stable.tar.gz",
-        "name": "clang",
-        "binPath": ["bin"]
+        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+        "branch": "master",
+        "name": "gas",
+        "binPath": []
       },
       {
-        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android12L-release/clang-r416183b1.tar.gz",
+        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+        "branch": "11",
         "name": "clang",
         "binPath": ["bin"]
       }
@@ -29,8 +31,7 @@
         "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
         "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
         "CLANG_TRIPLE": "aarch64-linux-gnu-",
-        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold",
-        "LDGOLD": "aarch64-linux-gnu-ld.gold"
+        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold"
       }
     },
     "AnyKernel3": {
