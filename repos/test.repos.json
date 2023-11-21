@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "OnePlus_KernelSU",
-      "repo": "https://github.com/tangalbert919/android_kernel_oneplus_sm8450",
-      "branch": "lineage-19.1",
-      "device": "gki",
-      "defconfig": "gki_defconfig"
+      "name": "samsung-exynos9820",
+      "repo": "https://github.com/CruelKernel/samsung-exynos9820",
+      "branch": "cruel-HVE5-v5.2",
+      "device": "N975",
+      "defconfig": "N975_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
