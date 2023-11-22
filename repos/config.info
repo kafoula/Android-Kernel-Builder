@@ -1,0 +1,569 @@
+Using arch/arm64/configs/exynos9820-d2s_defconfig as base
+Merging kernel/configs/cruel.conf
+Value of CONFIG_SECURITY_DEFEX is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_SECURITY_DEFEX=y
+New value: # CONFIG_SECURITY_DEFEX is not set
+
+Value of CONFIG_PROCA is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_PROCA=y
+New value: # CONFIG_PROCA is not set
+
+Value of CONFIG_SECURITY_DSMS is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_SECURITY_DSMS=y
+New value: # CONFIG_SECURITY_DSMS is not set
+
+Value of CONFIG_KPERFMON is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_KPERFMON=y
+New value: # CONFIG_KPERFMON is not set
+
+Value of CONFIG_NETWORK_FILESYSTEMS is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_NETWORK_FILESYSTEMS=y
+New value: # CONFIG_NETWORK_FILESYSTEMS is not set
+
+Value of CONFIG_LOCALVERSION is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_LOCALVERSION=""
+New value: CONFIG_LOCALVERSION="-Cruel"
+
+Value of CONFIG_LOCALVERSION_AUTO is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_LOCALVERSION_AUTO=y
+New value: # CONFIG_LOCALVERSION_AUTO is not set
+
+Value of CONFIG_MALI_GATOR_SUPPORT is redefined by fragment kernel/configs/cruel.conf:
+Previous value: # CONFIG_MALI_GATOR_SUPPORT is not set
+New value: CONFIG_MALI_GATOR_SUPPORT=y
+
+Value of CONFIG_CPU_FREQ_GOV_PERFORMANCE is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_CPU_FREQ_GOV_PERFORMANCE=y
+New value: # CONFIG_CPU_FREQ_GOV_PERFORMANCE is not set
+
+Value of CONFIG_DTC is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_DTC=y
+New value: # CONFIG_DTC is not set
+
+Value of CONFIG_RD_GZIP is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_RD_GZIP=y
+New value: # CONFIG_RD_GZIP is not set
+
+Value of CONFIG_RD_BZIP2 is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_RD_BZIP2=y
+New value: # CONFIG_RD_BZIP2 is not set
+
+Value of CONFIG_RD_LZMA is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_RD_LZMA=y
+New value: # CONFIG_RD_LZMA is not set
+
+Value of CONFIG_RD_XZ is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_RD_XZ=y
+New value: # CONFIG_RD_XZ is not set
+
+Value of CONFIG_RD_LZO is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_RD_LZO=y
+New value: # CONFIG_RD_LZO is not set
+
+Value of CONFIG_RD_LZ4 is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_RD_LZ4=y
+New value: # CONFIG_RD_LZ4 is not set
+
+Value of CONFIG_CRAMFS is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_CRAMFS=y
+New value: # CONFIG_CRAMFS is not set
+
+Value of CONFIG_MQ_IOSCHED_DEADLINE is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_MQ_IOSCHED_DEADLINE=y
+New value: # CONFIG_MQ_IOSCHED_DEADLINE is not set
+
+Value of CONFIG_MQ_IOSCHED_KYBER is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_MQ_IOSCHED_KYBER=y
+New value: # CONFIG_MQ_IOSCHED_KYBER is not set
+
+Value of CONFIG_TCP_CONG_CUBIC is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_TCP_CONG_CUBIC=y
+New value: # CONFIG_TCP_CONG_CUBIC is not set
+
+Value of CONFIG_TCP_CONG_WESTWOOD is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_TCP_CONG_WESTWOOD=m
+New value: # CONFIG_TCP_CONG_WESTWOOD is not set
+
+Value of CONFIG_TCP_CONG_HTCP is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_TCP_CONG_HTCP=m
+New value: # CONFIG_TCP_CONG_HTCP is not set
+
+Value of CONFIG_EXYNOS_NPU_PUBLISH_NPU_BUILD_VER is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_EXYNOS_NPU_PUBLISH_NPU_BUILD_VER=y
+New value: # CONFIG_EXYNOS_NPU_PUBLISH_NPU_BUILD_VER is not set
+
+Value of CONFIG_VISION_UNITTEST is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_VISION_UNITTEST=y
+New value: # CONFIG_VISION_UNITTEST is not set
+
+Value of CONFIG_CRYPTO_TEST is redefined by fragment kernel/configs/cruel.conf:
+Previous value: CONFIG_CRYPTO_TEST=y
+New value: # CONFIG_CRYPTO_TEST is not set
+
+Merging kernel/configs/cruel+samsung.conf
+Merging kernel/configs/cruel+sched_performance.conf
+Value of CONFIG_CPU_FREQ_GOV_PERFORMANCE is redefined by fragment kernel/configs/cruel+sched_performance.conf:
+Previous value: # CONFIG_CPU_FREQ_GOV_PERFORMANCE is not set
+New value: CONFIG_CPU_FREQ_GOV_PERFORMANCE=y
+
+Merging kernel/configs/cruel+sched_powersave.conf
+Value of CONFIG_CPU_FREQ_GOV_POWERSAVE is redefined by fragment kernel/configs/cruel+sched_powersave.conf:
+Previous value: # CONFIG_CPU_FREQ_GOV_POWERSAVE is not set
+New value: CONFIG_CPU_FREQ_GOV_POWERSAVE=y
+
+Merging kernel/configs/cruel+nohardening.conf
+Value of CONFIG_LOD_SEC is redefined by fragment kernel/configs/cruel+nohardening.conf:
+Previous value: CONFIG_LOD_SEC=y
+New value: # CONFIG_LOD_SEC is not set
+
+Value of CONFIG_UH is redefined by fragment kernel/configs/cruel+nohardening.conf:
+Previous value: CONFIG_UH=y
+New value: # CONFIG_UH is not set
+
+Value of CONFIG_UH_LKMAUTH is redefined by fragment kernel/configs/cruel+nohardening.conf:
+Previous value: CONFIG_UH_LKMAUTH=y
+New value: # CONFIG_UH_LKMAUTH is not set
+
+Value of CONFIG_UH_LKM_BLOCK is redefined by fragment kernel/configs/cruel+nohardening.conf:
+Previous value: CONFIG_UH_LKM_BLOCK=y
+New value: # CONFIG_UH_LKM_BLOCK is not set
+
+Value of CONFIG_RKP_CFP is redefined by fragment kernel/configs/cruel+nohardening.conf:
+Previous value: CONFIG_RKP_CFP=y
+New value: # CONFIG_RKP_CFP is not set
+
+Value of CONFIG_RKP_CFP_JOPP is redefined by fragment kernel/configs/cruel+nohardening.conf:
+Previous value: CONFIG_RKP_CFP_JOPP=y
+New value: # CONFIG_RKP_CFP_JOPP is not set
+
+Merging kernel/configs/cruel+ttl.conf
+Value of CONFIG_NETFILTER_XT_TARGET_HL is redefined by fragment kernel/configs/cruel+ttl.conf:
+Previous value: # CONFIG_NETFILTER_XT_TARGET_HL is not set
+New value: CONFIG_NETFILTER_XT_TARGET_HL=y
+
+Value of CONFIG_IP_NF_TARGET_TTL is redefined by fragment kernel/configs/cruel+ttl.conf:
+Previous value: # CONFIG_IP_NF_TARGET_TTL is not set
+New value: CONFIG_IP_NF_TARGET_TTL=y
+
+Value of CONFIG_IP6_NF_MATCH_HL is redefined by fragment kernel/configs/cruel+ttl.conf:
+Previous value: # CONFIG_IP6_NF_MATCH_HL is not set
+New value: CONFIG_IP6_NF_MATCH_HL=y
+
+Value of CONFIG_IP6_NF_TARGET_HL is redefined by fragment kernel/configs/cruel+ttl.conf:
+Previous value: # CONFIG_IP6_NF_TARGET_HL is not set
+New value: CONFIG_IP6_NF_TARGET_HL=y
+
+Merging kernel/configs/cruel+wireguard.conf
+Value of CONFIG_NET_UDP_TUNNEL is redefined by fragment kernel/configs/cruel+wireguard.conf:
+Previous value: # CONFIG_NET_UDP_TUNNEL is not set
+New value: CONFIG_NET_UDP_TUNNEL=y
+
+Merging kernel/configs/cruel+cifs.conf
+Value of CONFIG_NETWORK_FILESYSTEMS is redefined by fragment kernel/configs/cruel+cifs.conf:
+Previous value: # CONFIG_NETWORK_FILESYSTEMS is not set
+New value: CONFIG_NETWORK_FILESYSTEMS=y
+
+Value of CONFIG_CIFS is redefined by fragment kernel/configs/cruel+cifs.conf:
+Previous value: # CONFIG_CIFS is not set
+New value: CONFIG_CIFS=y
+
+Value of CONFIG_CRYPTO_CCM is redefined by fragment kernel/configs/cruel+cifs.conf:
+Previous value: # CONFIG_CRYPTO_CCM is not set
+New value: CONFIG_CRYPTO_CCM=y
+
+Value of CONFIG_CRYPTO_MD4 is redefined by fragment kernel/configs/cruel+cifs.conf:
+Previous value: # CONFIG_CRYPTO_MD4 is not set
+New value: CONFIG_CRYPTO_MD4=y
+
+Merging kernel/configs/cruel+sdfat.conf
+Value of CONFIG_VFAT_FS is redefined by fragment kernel/configs/cruel+sdfat.conf:
+Previous value: CONFIG_VFAT_FS=y
+New value: # CONFIG_VFAT_FS is not set
+
+Merging kernel/configs/cruel+ntfs.conf
+Value of CONFIG_NTFS_DEBUG is redefined by fragment kernel/configs/cruel+ntfs.conf:
+Previous value: CONFIG_NTFS_DEBUG=y
+New value: # CONFIG_NTFS_DEBUG is not set
+
+Value of CONFIG_NTFS_RW is redefined by fragment kernel/configs/cruel+ntfs.conf:
+Previous value: # CONFIG_NTFS_RW is not set
+New value: CONFIG_NTFS_RW=y
+
+Merging kernel/configs/cruel+force_dex_wqhd.conf
+Merging kernel/configs/cruel+morosound.conf
+Merging kernel/configs/cruel+boeffla_wl_blocker.conf
+Merging kernel/configs/cruel-mass_storage.conf
+Value of CONFIG_USB_CONFIGFS_MASS_STORAGE is redefined by fragment kernel/configs/cruel-mass_storage.conf:
+Previous value: # CONFIG_USB_CONFIGFS_MASS_STORAGE is not set
+New value: CONFIG_USB_CONFIGFS_MASS_STORAGE=y
+
+Merging kernel/configs/cruel+usb_serial.conf
+Value of CONFIG_USB_SERIAL_CONSOLE is redefined by fragment kernel/configs/cruel+usb_serial.conf:
+Previous value: # CONFIG_USB_SERIAL_CONSOLE is not set
+New value: CONFIG_USB_SERIAL_CONSOLE=y
+
+Value of CONFIG_USB_SERIAL_GENERIC is redefined by fragment kernel/configs/cruel+usb_serial.conf:
+Previous value: # CONFIG_USB_SERIAL_GENERIC is not set
+New value: CONFIG_USB_SERIAL_GENERIC=y
+
+Value of CONFIG_USB_SERIAL_CP210X is redefined by fragment kernel/configs/cruel+usb_serial.conf:
+Previous value: # CONFIG_USB_SERIAL_CP210X is not set
+New value: CONFIG_USB_SERIAL_CP210X=y
+
+Merging kernel/configs/cruel-nohardening2.conf
+Value of CONFIG_COMPAT_BRK is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: # CONFIG_COMPAT_BRK is not set
+New value: CONFIG_COMPAT_BRK=y
+
+Value of CONFIG_VMAP_STACK is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: CONFIG_VMAP_STACK=y
+New value: # CONFIG_VMAP_STACK is not set
+
+Value of CONFIG_UNMAP_KERNEL_AT_EL0 is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: CONFIG_UNMAP_KERNEL_AT_EL0=y
+New value: # CONFIG_UNMAP_KERNEL_AT_EL0 is not set
+
+Value of CONFIG_HARDEN_BRANCH_PREDICTOR is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: CONFIG_HARDEN_BRANCH_PREDICTOR=y
+New value: # CONFIG_HARDEN_BRANCH_PREDICTOR is not set
+
+Value of CONFIG_ARM64_SSBD is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: CONFIG_ARM64_SSBD=y
+New value: # CONFIG_ARM64_SSBD is not set
+
+Value of CONFIG_HARDENED_USERCOPY is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: CONFIG_HARDENED_USERCOPY=y
+New value: # CONFIG_HARDENED_USERCOPY is not set
+
+Value of CONFIG_CC_STACKPROTECTOR is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: CONFIG_CC_STACKPROTECTOR=y
+New value: # CONFIG_CC_STACKPROTECTOR is not set
+
+Value of CONFIG_CC_STACKPROTECTOR_NONE is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: # CONFIG_CC_STACKPROTECTOR_NONE is not set
+New value: CONFIG_CC_STACKPROTECTOR_NONE=y
+
+Value of CONFIG_CC_STACKPROTECTOR_STRONG is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: CONFIG_CC_STACKPROTECTOR_STRONG=y
+New value: # CONFIG_CC_STACKPROTECTOR_STRONG is not set
+
+Value of CONFIG_REFCOUNT_FULL is redefined by fragment kernel/configs/cruel-nohardening2.conf:
+Previous value: CONFIG_REFCOUNT_FULL=y
+New value: # CONFIG_REFCOUNT_FULL is not set
+
+Merging kernel/configs/cruel+nodebug.conf
+Value of CONFIG_KALLSYMS_ALL is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_KALLSYMS_ALL=y
+New value: # CONFIG_KALLSYMS_ALL is not set
+
+Value of CONFIG_SLUB_DEBUG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_SLUB_DEBUG=y
+New value: # CONFIG_SLUB_DEBUG is not set
+
+Value of CONFIG_DEBUG_INFO is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_DEBUG_INFO=y
+New value: # CONFIG_DEBUG_INFO is not set
+
+Value of CONFIG_STRIP_ASM_SYMS is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: # CONFIG_STRIP_ASM_SYMS is not set
+New value: CONFIG_STRIP_ASM_SYMS=y
+
+Value of CONFIG_SCHED_DEBUG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_SCHED_DEBUG=y
+New value: # CONFIG_SCHED_DEBUG is not set
+
+Value of CONFIG_SCHEDSTATS is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_SCHEDSTATS=y
+New value: # CONFIG_SCHEDSTATS is not set
+
+Value of CONFIG_DEBUG_ATOMIC_SLEEP is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_DEBUG_ATOMIC_SLEEP=y
+New value: # CONFIG_DEBUG_ATOMIC_SLEEP is not set
+
+Value of CONFIG_DEBUG_BUGVERBOSE is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_DEBUG_BUGVERBOSE=y
+New value: # CONFIG_DEBUG_BUGVERBOSE is not set
+
+Value of CONFIG_DEBUG_LIST is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_DEBUG_LIST=y
+New value: # CONFIG_DEBUG_LIST is not set
+
+Value of CONFIG_BUG_ON_DATA_CORRUPTION is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_BUG_ON_DATA_CORRUPTION=y
+New value: # CONFIG_BUG_ON_DATA_CORRUPTION is not set
+
+Value of CONFIG_BLOCK_SUPPORT_STLOG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_BLOCK_SUPPORT_STLOG=y
+New value: # CONFIG_BLOCK_SUPPORT_STLOG is not set
+
+Value of CONFIG_BT_DEBUGFS is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_BT_DEBUGFS=y
+New value: # CONFIG_BT_DEBUGFS is not set
+
+Value of CONFIG_USB_DEBUG_DETAILED_LOG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_USB_DEBUG_DETAILED_LOG=y
+New value: # CONFIG_USB_DEBUG_DETAILED_LOG is not set
+
+Value of CONFIG_MMC_SUPPORT_STLOG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_MMC_SUPPORT_STLOG=y
+New value: # CONFIG_MMC_SUPPORT_STLOG is not set
+
+Value of CONFIG_ION_DEBUG_EVENT_RECORD is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_ION_DEBUG_EVENT_RECORD=y
+New value: # CONFIG_ION_DEBUG_EVENT_RECORD is not set
+
+Value of CONFIG_SEC_DEBUG_TSP_LOG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_SEC_DEBUG_TSP_LOG=y
+New value: # CONFIG_SEC_DEBUG_TSP_LOG is not set
+
+Value of CONFIG_MCPS_DEBUG_PRINTK is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_MCPS_DEBUG_PRINTK=3
+New value: CONFIG_MCPS_DEBUG_PRINTK=4
+
+Value of CONFIG_MCPS_DEBUG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_MCPS_DEBUG=y
+New value: # CONFIG_MCPS_DEBUG is not set
+
+Value of CONFIG_EXYNOS_CORESIGHT is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_EXYNOS_CORESIGHT=y
+New value: # CONFIG_EXYNOS_CORESIGHT is not set
+
+Value of CONFIG_EXYNOS_DEBUG_TEST is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_EXYNOS_DEBUG_TEST=y
+New value: # CONFIG_EXYNOS_DEBUG_TEST is not set
+
+Value of CONFIG_SEC_BOOTSTAT is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_SEC_BOOTSTAT=y
+New value: # CONFIG_SEC_BOOTSTAT is not set
+
+Value of CONFIG_CGROUP_DEBUG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_CGROUP_DEBUG=y
+New value: # CONFIG_CGROUP_DEBUG is not set
+
+Value of CONFIG_SDFAT_DEBUG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_SDFAT_DEBUG=y
+New value: # CONFIG_SDFAT_DEBUG is not set
+
+Value of CONFIG_SDFAT_DBG_MSG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_SDFAT_DBG_MSG=y
+New value: # CONFIG_SDFAT_DBG_MSG is not set
+
+Value of CONFIG_PMUCAL_DBG is redefined by fragment kernel/configs/cruel+nodebug.conf:
+Previous value: CONFIG_PMUCAL_DBG=y
+New value: # CONFIG_PMUCAL_DBG is not set
+
+Merging kernel/configs/cruel-fake_config.conf
+Merging kernel/configs/cruel-fp_boost.conf
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/zconf.lex.c
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf  --alldefconfig Kconfig
+./.tmp.config.h2MxWzHpAQ:6399:warning: override: reassigning to symbol OVERLAY_FS
+#
+# configuration written to /home/runner/work/samsung-exynos9820/samsung-exynos9820/./config.N975F
+#
+Value requested for CONFIG_SLABINFO not in final .config
+Requested value:  CONFIG_SLABINFO=y
+Actual value:     
+
+Value requested for CONFIG_UH_DEBUG not in final .config
+Requested value:  # CONFIG_UH_DEBUG is not set
+Actual value:     
+
+Value requested for CONFIG_UH_RKP not in final .config
+Requested value:  CONFIG_UH_RKP=y
+Actual value:     
+
+Value requested for CONFIG_RKP_KDP not in final .config
+Requested value:  CONFIG_RKP_KDP=y
+Actual value:     
+
+Value requested for CONFIG_RKP_NS_PROT not in final .config
+Requested value:  CONFIG_RKP_NS_PROT=y
+Actual value:     
+
+Value requested for CONFIG_RKP_DMAP_PROT not in final .config
+Requested value:  CONFIG_RKP_DMAP_PROT=y
+Actual value:     
+
+Value requested for CONFIG_UH_RKP_FIMC_CHECK not in final .config
+Requested value:  # CONFIG_UH_RKP_FIMC_CHECK is not set
+Actual value:     
+
+Value requested for CONFIG_RKP_CFP_JOPP_MAGIC not in final .config
+Requested value:  CONFIG_RKP_CFP_JOPP_MAGIC=0x00be7bad
+Actual value:     
+
+Value requested for CONFIG_RKP_CFP_TEST not in final .config
+Requested value:  # CONFIG_RKP_CFP_TEST is not set
+Actual value:     
+
+Value requested for CONFIG_DEFAULT_CUBIC not in final .config
+Requested value:  # CONFIG_DEFAULT_CUBIC is not set
+Actual value:     
+
+Value requested for CONFIG_LEDS_KTD2692 not in final .config
+Requested value:  # CONFIG_LEDS_KTD2692 is not set
+Actual value:     
+
+Value requested for CONFIG_EXYNOS_CORESIGHT_PC_INFO not in final .config
+Requested value:  CONFIG_EXYNOS_CORESIGHT_PC_INFO=y
+Actual value:     
+
+Value requested for CONFIG_PC_ITERATION not in final .config
+Requested value:  CONFIG_PC_ITERATION=5
+Actual value:     
+
+Value requested for CONFIG_EXYNOS_CORESIGHT_MAINTAIN_DBG_REG not in final .config
+Requested value:  # CONFIG_EXYNOS_CORESIGHT_MAINTAIN_DBG_REG is not set
+Actual value:     
+
+Value requested for CONFIG_OVERLAY_FS not in final .config
+Requested value:  # CONFIG_OVERLAY_FS is not set
+CONFIG_OVERLAY_FS=y
+Actual value:     CONFIG_OVERLAY_FS=y
+
+Value requested for CONFIG_FAT_DEFAULT_IOCHARSET not in final .config
+Requested value:  CONFIG_FAT_DEFAULT_IOCHARSET="iso8859-1"
+Actual value:     
+
+Value requested for CONFIG_FAT_DEFAULT_UTF8 not in final .config
+Requested value:  # CONFIG_FAT_DEFAULT_UTF8 is not set
+Actual value:     
+
+Value requested for CONFIG_SDFAT_DBG_IOCTL not in final .config
+Requested value:  # CONFIG_SDFAT_DBG_IOCTL is not set
+Actual value:     
+
+Value requested for CONFIG_SDFAT_DBG_BUGON not in final .config
+Requested value:  # CONFIG_SDFAT_DBG_BUGON is not set
+Actual value:     
+
+Value requested for CONFIG_DEBUG_INFO_REDUCED not in final .config
+Requested value:  # CONFIG_DEBUG_INFO_REDUCED is not set
+Actual value:     
+
+Value requested for CONFIG_DEBUG_INFO_SPLIT not in final .config
+Requested value:  # CONFIG_DEBUG_INFO_SPLIT is not set
+Actual value:     
+
+Value requested for CONFIG_DEBUG_INFO_DWARF4 not in final .config
+Requested value:  # CONFIG_DEBUG_INFO_DWARF4 is not set
+Actual value:     
+
+Value requested for CONFIG_GDB_SCRIPTS not in final .config
+Requested value:  # CONFIG_GDB_SCRIPTS is not set
+Actual value:     
+
+Value requested for CONFIG_SLUB_DEBUG_ON not in final .config
+Requested value:  # CONFIG_SLUB_DEBUG_ON is not set
+Actual value:     
+
+Value requested for CONFIG_HARDENED_USERCOPY_PAGESPAN not in final .config
+Requested value:  # CONFIG_HARDENED_USERCOPY_PAGESPAN is not set
+Actual value:     
+
+Value requested for CONFIG_DEFEX_KERNEL_ONLY not in final .config
+Requested value:  # CONFIG_DEFEX_KERNEL_ONLY is not set
+Actual value:     
+
+Value requested for CONFIG_PROCA_GKI_10 not in final .config
+Requested value:  # CONFIG_PROCA_GKI_10 is not set
+Actual value:     
+
+Value requested for CONFIG_PROCA_S_OS not in final .config
+Requested value:  CONFIG_PROCA_S_OS=y
+Actual value:     
+
+Value requested for CONFIG_DECOMPRESS_GZIP not in final .config
+Requested value:  CONFIG_DECOMPRESS_GZIP=y
+Actual value:     
+
+Value requested for CONFIG_DECOMPRESS_BZIP2 not in final .config
+Requested value:  CONFIG_DECOMPRESS_BZIP2=y
+Actual value:     
+
+Value requested for CONFIG_DECOMPRESS_LZMA not in final .config
+Requested value:  CONFIG_DECOMPRESS_LZMA=y
+Actual value:     
+
+Value requested for CONFIG_DECOMPRESS_XZ not in final .config
+Requested value:  CONFIG_DECOMPRESS_XZ=y
+Actual value:     
+
+Value requested for CONFIG_DECOMPRESS_LZO not in final .config
+Requested value:  CONFIG_DECOMPRESS_LZO=y
+Actual value:     
+
+Value requested for CONFIG_DECOMPRESS_LZ4 not in final .config
+Requested value:  CONFIG_DECOMPRESS_LZ4=y
+Actual value:     
+
+Value requested for CONFIG_OVERLAY_FS not in final .config
+Requested value:  # CONFIG_OVERLAY_FS is not set
+CONFIG_OVERLAY_FS=y
+Actual value:     CONFIG_OVERLAY_FS=y
+
+Value requested for CONFIG_OVERLAYFS not in final .config
+Requested value:  CONFIG_OVERLAYFS=y
+Actual value:     
+
+Value requested for CONFIG_FS_OVERLAYFS not in final .config
+Requested value:  CONFIG_FS_OVERLAYFS=y
+Actual value:     
+
+Value requested for CONFIG_MALI_KUTF not in final .config
+Requested value:  # CONFIG_MALI_KUTF is not set
+Actual value:     
+
+Value requested for CONFIG_DEFAULT_HTCP not in final .config
+Requested value:  # CONFIG_DEFAULT_HTCP is not set
+Actual value:     
+
+Value requested for CONFIG_DEFAULT_WESTWOOD not in final .config
+Requested value:  # CONFIG_DEFAULT_WESTWOOD is not set
+Actual value:     
+
+Value requested for CONFIG_CIFS_DEBUG2 not in final .config
+Requested value:  # CONFIG_CIFS_DEBUG2 is not set
+Actual value:     
+
+Value requested for CONFIG_CIFS_DEBUG_DUMP_KEYS not in final .config
+Requested value:  # CONFIG_CIFS_DEBUG_DUMP_KEYS is not set
+Actual value:     
+
+Value requested for CONFIG_SDFAT_DBG_MSG not in final .config
+Requested value:  # CONFIG_SDFAT_DBG_MSG is not set
+Actual value:     
+
+Name: Beesi_kevzoj_Cruel-v5.2-HVE5-KSU
+Model: N975F
+Configuration:
+	samsung (default: On)
+	sched_performance (default: On)
+	sched_powersave (default: On)
+	nohardening (default: On)
+	ttl (default: On)
+	wireguard (default: On)
+	cifs (default: On)
+	sdfat (default: On)
+	ntfs (default: On)
+	force_dex_wqhd (default: On)
+	morosound (default: On)
+	boeffla_wl_blocker (default: On)
+	mass_storage (default: Off)
+	usb_serial (default: On)
+	nohardening2 (default: Off)
+	nodebug (default: On)
+	fake_config (default: Off)
+	fp_boost (default: Off)
+OS Patch Level: 2023-08
+ARCH="arm64"
+PLATFORM_VERSION="11"
+ANDROID_MAJOR_VERSION="r"
+KBUILD_BUILD_TIMESTAMP=""
+KCONFIG_BUILTINCONFIG="arch/arm64/configs/exynos9820-d2s_defconfig"
+KCONFIG_CONFIG="/home/runner/work/samsung-exynos9820/samsung-exynos9820/./config.N975F"
