@@ -1,98 +1,10 @@
 [
-  {
     "kernelSource": {
-      "name": "samsung-exynos9820",
-      "repo": "https://github.com/CruelKernel/samsung-exynos9820",
-      "branch": "cruel-HVE5-v5.2",
-      "device": "N975",
-      "defconfig": "N975_defconfig"
-    },
-    "withKernelSU": true,
-    "toolchains": [
-      {
-        "repo": "https://github.com/CruelKernel/samsung-exynos9820-toolchain/",
-        "branch": "google",
-        "name": "google",
-        "binPath": ["./aarch64-linux-android-4.9/bin", "llvm/bin"]
-      }
-    ],
-    "params": {
-      "ARCH": "arm64",
-      "CC": "google/llvm/bin/clang",
-      "externalCommand": {
-        "CROSS_COMPILE": "google/aarch64-linux-android-4.9/bin/aarch64-linux-android-",
-        "CLANG_TRIPLE": "google/llvm/bin/aarch64-linux-android-",
-        "LD": "google/llvm/bin/ld.lld",
-        "AR": "google/llvm/bin/llvm-ar",
-        "NM": "google/llvm/bin/llvm-nm",
-        "OBJCOPY": "google/llvm/bin/llvm-objcopy",
-        "OBJDUMP": "google/llvm/bin/llvm-objdump",
-        "READELF": "google/llvm/bin/llvm-readelf",
-        "OBJSIZE": "google/llvm/bin/llvm-size",
-        "STRIP": "google/llvm/bin/llvm-strip",
-        "LDGOLD": "google/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld.gold",
-        "LLVM_AR": "google/llvm/bin/llvm-ar",
-        "LLVM_DIS": "google/llvm/bin/llvm-dis"
-      }
-    },
-    "AnyKernel3": {
-      "use": false,
-      "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
-    }
-  },
-  {
-    "kernelSource": {
-      "name": "Panda35064-chopin",
-      "repo": "https://github.com/YuyukoAOSPMod/kernel_xiaomi_chopin",
-      "branch": "12.1",
-      "device": "chopin",
-      "defconfig": "chopin_defconfig"
-    },
-    "withKernelSU": true,
-    "toolchains": [
-      {
-        "repo": "https://github.com/CruelKernel/samsung-exynos9820-toolchain/",
-        "branch": "google",
-        "name": "google",
-        "binPath": ["./aarch64-linux-android-4.9/bin", "llvm/bin"]
-      }
-    ],
-    "params": {
-      "ARCH": "arm64",
-      "CC": "google/llvm/bin/clang",
-      "externalCommand": {
-        "CROSS_COMPILE": "google/aarch64-linux-android-4.9/bin/aarch64-linux-android-",
-        "CLANG_TRIPLE": "google/llvm/bin/aarch64-linux-android-",
-
-        "LD": "google/llvm/bin/ld.lld",
-        "AR": "google/llvm/bin/llvm-ar",
-        "NM": "google/llvm/bin/llvm-nm",
-        "OBJCOPY": "google/llvm/bin/llvm-objcopy",
-        "OBJDUMP": "google/llvm/bin/llvm-objdump",
-        "READELF": "google/llvm/bin/llvm-readelf",
-        "OBJSIZE": "google/llvm/bin/llvm-size",
-        "STRIP": "google/llvm/bin/llvm-strip",
-        "LDGOLD": "google/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld.gold",
-        "LLVM_AR": "google/llvm/bin/llvm-ar",
-        "LLVM_DIS": "google/llvm/bin/llvm-dis"
-      }
-    },
-    "AnyKernel3": {
-      "use": false,
-      "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
-    }
-  },
-  {
-    "kernelSource": {
-      "name": "SM-N976N",
-      "repo": "https://github.com/easterNday/samsung-exynos9820/",
-      "branch": "devel",
-      "device": "exynos9820-d2xks",
-      "defconfig": "exynos9820-d2xks_defconfig"
+      "name": "SM-N976F",
+      "repo": "https://github.com/Rocky7842/android_kernel_samsung_exynos9820/",
+      "branch": "lineage-20-ksu",
+      "device": "exynos9820-d2s",
+      "defconfig": "exynos9820-d2s_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
