@@ -1,10 +1,10 @@
 [
     "kernelSource": {
       "name": "SM-N976F",
-      "repo": "https://github.com/Rocky7842/android_kernel_samsung_exynos9820/",
-      "branch": "lineage-20-ksu",
+      "repo": "https://github.com/awakened1712/android_kernel_samsung_exynos9820/tree/feat-ksu",
+      "branch": "feat-ksu",
       "device": "exynos9820-d2s",
-      "defconfig": "exynos9820-d2s_defconfig"
+      "defconfig": "build.config.universal9825"
     },
     "withKernelSU": false,
     "toolchains": [
